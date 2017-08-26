@@ -1,0 +1,16 @@
+"page_action": {
+    "default_icon": "images/icon_19.png",
+    "default_title": "__MSG_defaultTitle__",
+    "default_popup": "popup.html"
+}
+"background": {
+    "scripts": ["javascript/background.js"]
+}
+"permissions": [
+    "tabs",
+    "activeTab",
+    "http://*.flickr.com/*",
+    "https://*.flickr.com/*",
+    "storage"
+]	
+"content_security_policy": "script-src 'self' https://*.google-analytics.com; object-src 'self'"
